@@ -1,0 +1,35 @@
+
+
+
+*******INSTRUCTION TO RUN LOGISTIC AND LINEAR REGRESSION ******
+
+- Make sure all import are functioning correctly 
+- For Logistic regression, run logisticReg()
+- For Linear regression, run linearReg()
+
+-It will permutate through many combinations of lambda,
+ and initial values of the weights.
+ 
+ -Not recommended for slower computers
+ 
+ -To increase the speed do the following with lambda and iteration variables
+ #TO run faster, switch the comments with the TWO values below
+ lbda = [0.1,0.3,1.0,3.0,10]
+ num = 5    
+ #lbda = 1.0
+ #num = 1
+ 
+ 
+*****Instructions for Naive Bayes *****
+ 
+standard naive bayes, using guassian distribution. takes as input, the .csv, will be submitted as "naive bayes.csv",
+outputs a new .csv, output.csv, with the first column the ID of all runners, and the second column a "boolean", that is either
+-1 or 1. -1 means will not compete in 2017. 1 means will compete in 2017.
+
+To run it, just have the python script in the same directory as a csv named aaadata.csv, which has the same format as "naive bayes.csv, and build the script"
+
+
+
+For simplicity and analysis purpose, we have merged the prediction outputs in single file, named Prediction_file.csv as per 
+the requires format as Participant_ID 	Y1_LOGISTIC	Y1_NAIVEBAYES	Y2_REGRESSION
+which has the values for Y1 as 0(will not participate)/1 (will participate) and Y2 has predicted finish time. 

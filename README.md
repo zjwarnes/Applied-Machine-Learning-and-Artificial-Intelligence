@@ -1,4 +1,4 @@
-The projects included are part 
-of a applied machine learning 
-course at mcgill university, 
-course code 551
+The projects included are done as part
+of an applied machine learning course
+as well as a course in artificial intelligence
+completed at McGill University
